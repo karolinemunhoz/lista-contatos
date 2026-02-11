@@ -47,7 +47,7 @@ export default function ContactForm() {
           onChange={e => setForm({ ...form, phone: e.target.value })}
         />
 
-        <button type="submit">Adicionar</button>
+        <S.AddButton type="submit">Adicionar</S.AddButton>
       </form>
     </S.Card>
   );
